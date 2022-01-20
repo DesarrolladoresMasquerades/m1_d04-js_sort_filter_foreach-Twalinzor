@@ -46,7 +46,9 @@ const people = [
 ];
 
 const sortByAge = (arr) => {
-  //your code...
+  function sortByAge(person1, person2) {
+    return parseInt(person1.age) - parseInt(person2.age);
+  }
 };
 
 let output = sortByAge(people);
